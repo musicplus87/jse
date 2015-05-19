@@ -1,4 +1,4 @@
-package oop01.xyntax;
+package oop01.syntax;
 /*
  * Date : 2015.05.18
  * Author : ผÛม๘ลย

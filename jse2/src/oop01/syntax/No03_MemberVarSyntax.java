@@ -1,4 +1,4 @@
-package oop01.xyntax;
+package oop01.syntax;
 /*
  * Data :
  * Author :
