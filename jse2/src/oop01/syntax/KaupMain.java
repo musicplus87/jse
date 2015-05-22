@@ -14,9 +14,9 @@ public class KaupMain {
 		System.out.println("몸무게를 입력해 주세요.");
 		weight = scanner.nextDouble();
 		vo.setWeight(weight);
-		/*int idx = 0;
-		vo.setIdx(idx);
-		vo.getMsg();*/
+		int idx = 0;
+		vo.setIdx(height, weight);
+		vo.getMsg();
 		System.out.println(vo.toString());
 		System.out.println("완료");
 	}

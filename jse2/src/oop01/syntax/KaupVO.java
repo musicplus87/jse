@@ -4,7 +4,7 @@ public class KaupVO {
 	// 멤버변수 = 필드
 	private double height;// 키
 	private double weight;// 몸무게
-	int idx;
+	private int idx;
 	String msg;
 
 	// 생성자
@@ -66,7 +66,7 @@ public class KaupVO {
 	@Override
 	public String toString() {
 		return "카우프지수 [height=" + height + ", weight=" + weight + ", idx="
-				+ idx + ", msg=" + msg + "]";
+				+ idx + ", msg=" + this.getMsg() + "]";
 	}
 
 }
